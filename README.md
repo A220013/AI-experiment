@@ -20,7 +20,7 @@ The core of the experiment simulates a complete attack chain:
 
 * **OSINT-Based Hyper-Personalized Phishing Generation**: Creates emails that are highly tailored to the target's real-world work, collaborations, and recent activities, making them difficult to dismiss.
 * **Automated Threat Analysis & Defense Recommendations**: Automatically identifies red flags such as manufactured urgency, suspicious attachments, and manipulative language.
-* **Asymmetric Attack Simulation**: Supports configurations with different models for each role, such as using a more powerful model for the attacker (e.g., `gemini-1.5-pro`) and a more lightweight model for the defender (e.g., `gemini-1.5-flash`), to test the robustness of the defense.
+* **Asymmetric Attack Simulation**: Supports configurations with different models for each role, such as using a more powerful model for the attacker (e.g., `gemini-2.5-pro`) and a more lightweight model for the defender (e.g., `gemini-2.5-flash`), to test the robustness of the defense.
 * **Scalable Benchmarking Framework**: The code is designed to be easily run in a loop over large datasets (e.g., data for 1,000 scholars), saving the results in individual JSON files for later analysis.
 
 ## Prerequisites
